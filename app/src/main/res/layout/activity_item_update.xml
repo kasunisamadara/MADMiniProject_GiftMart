@@ -20,9 +20,10 @@
         <ImageView
             android:id="@+id/product_image_maintain"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="364dp"
             android:layout_marginTop="2dp"
-            android:scaleType="centerCrop" />
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/watch" />
 
         <EditText
             android:id="@+id/product_name_maintain"

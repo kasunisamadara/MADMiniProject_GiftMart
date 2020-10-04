@@ -19,7 +19,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/giftlogo"
-
         tools:ignore="UnknownIdInLayout" />
 
     <SearchView
@@ -142,7 +141,9 @@
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.464" />
+        app:layout_constraintVertical_bias="0.464"
+        android:autofillHints=""
+        tools:ignore="PrivateResource" />
 
     <TextView
         android:id="@+id/editText6"
@@ -163,7 +164,8 @@
         app:layout_constraintHorizontal_bias="0.81"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.21" />
+        app:layout_constraintVertical_bias="0.21"
+        tools:ignore="PrivateResource" />
 
     <TextView
         android:id="@+id/textView14"
@@ -174,14 +176,15 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/cardview_light_background"
-        android:text="Size"
+        android:text="@string/size"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.149"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.536" />
+        app:layout_constraintVertical_bias="0.536"
+        tools:ignore="PrivateResource" />
 
     <EditText
         android:id="@+id/editText8"
@@ -193,14 +196,15 @@
         android:layout_marginBottom="8dp"
         android:background="@color/cardview_light_background"
         android:ems="10"
-        android:hint="Quantity"
+        android:hint="@string/quantity"
         android:inputType="numberSigned"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.648"
-        tools:ignore="PrivateResource" />
+        tools:ignore="PrivateResource"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button2"

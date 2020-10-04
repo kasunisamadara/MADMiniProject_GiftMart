@@ -76,13 +76,14 @@
             app:layout_constraintHorizontal_bias="0.553"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/giftlogo" />
+            app:srcCompat="@drawable/giftlogo"/>
+
 
         <TextView
             android:id="@+id/logintxt"
             android:layout_width="291dp"
             android:layout_height="61dp"
-            android:text="Login To Admin Panel"
+            android:text="@string/login_to_admin_panel"
             android:textColor="@android:color/background_dark"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"

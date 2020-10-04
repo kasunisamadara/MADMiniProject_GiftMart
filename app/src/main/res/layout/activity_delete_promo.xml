@@ -7,7 +7,7 @@
     android:background="@drawable/blubg"
     tools:context=".deletePromo">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@drawable/promoback"
@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:context=".deletePromo">
+        tools:context=".deletePromo"/>
 
         <Button
             android:id="@+id/deletepromo"
@@ -79,7 +79,8 @@
             app:layout_constraintHorizontal_bias="0.181"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/deletepromo2"
-            app:layout_constraintVertical_bias="0.109" />
+            app:layout_constraintVertical_bias="0.109"/>
+
 
         <EditText
             android:id="@+id/promodep2"
@@ -128,7 +129,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.571"
-            app:srcCompat="@drawable/giftlogo" />
+            app:srcCompat="@drawable/giftlogo"/>
+
 
         <SearchView
             android:id="@+id/searchView"
@@ -168,7 +170,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.195" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     <ImageButton
         android:id="@+id/imageButton17"

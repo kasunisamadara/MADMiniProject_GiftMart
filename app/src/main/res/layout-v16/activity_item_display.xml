@@ -30,8 +30,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.053"
-        app:srcCompat="@drawable/supermarket"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/supermarket"/>
+
 
     <TextView
         android:id="@+id/textView32"
@@ -83,8 +83,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.061"
-        app:srcCompat="@drawable/menu"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/menu"/>
+
 
     <SearchView
         android:id="@+id/searchView"

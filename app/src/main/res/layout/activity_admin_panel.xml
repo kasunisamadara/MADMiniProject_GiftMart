@@ -12,7 +12,7 @@
         android:layout_width="230dp"
         android:layout_height="50dp"
         android:background="#51859195"
-        android:text="Promotions"
+        android:text="@string/promotions"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,8 +58,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/giftlogo"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/giftlogo"/>
+
 
     <Button
         android:id="@+id/shipping"
